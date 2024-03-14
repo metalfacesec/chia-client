@@ -1,5 +1,7 @@
 const Rpc = require('./Rpc');
 
+console.log('Hey Chris!')
+
 class FullNode extends Rpc {
 	constructor(config) {
 		super(config);
